@@ -19,4 +19,8 @@
 -- | https://www.airbnb.com/rooms/25367014 | 16           |
 -- | https://www.airbnb.com/rooms/25682427 | 16           |
 
-
+SELECT
+    DISTINCT url,
+    accommodates
+FROM listings
+WHERE accommodates = 16;
